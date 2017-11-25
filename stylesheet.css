@@ -1,0 +1,93 @@
+
+.instructions {
+text-align: center;
+background-color:white;
+border-radius: 80%;
+}
+#bod {
+  display: flex;
+  justify-content: center;
+  background-image: url(bobross.jpg);
+  background-size: 250px;
+}
+.clear{
+  border-radius: 30px;
+}
+.wrapper {
+  background-color: black;
+  margin: 2%;
+  border: solid black 2px;
+  width: 960px;
+  min-width: 960px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.pixel {
+  background-color: white;
+  resize: auto;
+  height: 10px;
+  width: 10px;
+  border: black solid 0.1px;
+  
+}
+
+
+.clicked {
+  background-color: red;
+}
+
+.selector {
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: black 5px solid;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.crayola {
+  height: 30px;
+  width: 30px;
+  border: black 0.5px solid;
+border-radius: 50%;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#brown {
+  background-color: brown;
+}
+
+#white {
+  background-color: white;
+}
+
+#green {
+  background-color: green;
+}
